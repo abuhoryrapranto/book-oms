@@ -1,6 +1,6 @@
 import "reflect-metadata";
 import express, {Express, Request, Response } from 'express';
-import { AppDataSource } from "./src/api/v1/config/dbconnection";
+import { AppDataSource } from "./src/api/config/dbconnection";
 require('dotenv').config();
 const port = process.env.PORT || 8000;
 

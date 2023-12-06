@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 require("reflect-metadata");
 const express_1 = __importDefault(require("express"));
-const dbconnection_1 = require("./src/api/v1/config/dbconnection");
+const dbconnection_1 = require("./src/api/config/dbconnection");
 require('dotenv').config();
 const port = process.env.PORT || 8000;
 const app = (0, express_1.default)();
